@@ -742,13 +742,14 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "state", ()=>state);
 parcelHelpers.export(exports, "loadRecipe", ()=>loadRecipe);
+var _configJs = require("./config.js");
+var _helpersJs = require("./helpers.js");
 const state = {
     recipe: {}
 };
 async function loadRecipe(id) {
     try {
-        const resp = await fetch(`https://forkify-api.herokuapp.com/api/v2/recipes/${id}`);
-        const data = await resp.json();
+        const data = await (0, _helpersJs.getJSON)((0, _configJs.API_URL) + id);
         const { recipe } = data.data;
         state.recipe = {
             id: recipe.id,
@@ -761,11 +762,11 @@ async function loadRecipe(id) {
             ingredients: recipe.ingredients
         };
     } catch (error) {
-        console.log(error);
+        console.log(`${error} \u{1F4A5}\u{1F4A5}\u{1F4A5}\u{1F4A5}`);
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","./config.js":"2hPh4","./helpers.js":"7nL9P"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -795,7 +796,36 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"3wx5k":[function(require,module,exports,__globalThis) {
+},{}],"2hPh4":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "API_URL", ()=>API_URL);
+parcelHelpers.export(exports, "TIMEOUT_SEC", ()=>TIMEOUT_SEC);
+const API_URL = 'https://forkify-api.herokuapp.com/api/v2/recipes/';
+const TIMEOUT_SEC = 5;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"7nL9P":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "getJSON", ()=>getJSON);
+var _configJs = require("./config.js");
+const timeout = function(s) {
+    return new Promise(function(_, reject) {
+        setTimeout(function() {
+            reject(new Error(`Request took too long! Timeout after ${s} second`));
+        }, s * 1000);
+    });
+};
+async function getJSON(url) {
+    const fetchPro = await fetch(url);
+    const res = await Promise.race([
+        fetchPro,
+        timeout((0, _configJs.TIMEOUT_SEC))
+    ]);
+    return await res.json();
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","./config.js":"2hPh4"}],"3wx5k":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "recipeView", ()=>recipeView);
