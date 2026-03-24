@@ -1,8 +1,8 @@
 3670
-103/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/project-forkify.4a59a05f.js1774309076823158688 0
-94/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/icons.7bd9dd61.svg1774309076811158688 0
-93/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/logo.726d37a8.png1774309076772158688 0
-75/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist1774309076844158688 1
+94/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/icons.7bd9dd61.svg1774330587908968400 0
+103/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/project-forkify.4a59a05f.js1774330587877968400 0
+93/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/logo.726d37a8.png1774330587811968400 0
+75/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist1774330587909968400 1
 88/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/package-lock.json1774306959701159497 0
 109/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/fraction.js/fraction.d.ts1774306959482159497 0
 105/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/fraction.js/README.md1774306959465159497 0
@@ -690,7 +690,7 @@
 132/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/caniuse-lite/data/features/keyboardevent-code.js1773279912038224735 0
 119/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/caniuse-lite/data/features/forms.js1773279911851224735 0
 136/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/caniuse-lite/data/features/form-submit-attributes.js1773279911848224735 0
-96/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/favicon.8b2f57bf.png1774309076715158688 0
+96/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/favicon.8b2f57bf.png1774330587773968400 0
 128/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/caniuse-lite/data/features/form-attribute.js1773279911847224735 0
 122/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/caniuse-lite/data/features/fontface.js1773279911846224735 0
 134/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/COPYRIGHT1773279916702224733 0
@@ -858,7 +858,7 @@
 97/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/utils1773279932958224727 1
 97/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@lezer/common1773279920676224731 1
 117/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/core/lib/public/Bundle.js1773279926789224729 0
-94/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/icons.21bad73c.svg1774309076811158688 0
+94/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/icons.21bad73c.svg1774330587908968400 0
 125/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/optimizer-swc/lib/SwcOptimizer.js1773279921883224731 0
 125/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/electron-to-chromium/chromium-versions.js1773279910119224735 0
 114/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/core/lib/buildCache.js1773279926786224729 0
@@ -930,7 +930,7 @@
 114/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/helpers/cjs/_to_array.cjs1773279910966224735 0
 113/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/helpers/cjs/_type_of.cjs1773279911010224735 0
 114/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/core/lib/serializer.js1773279932722224727 0
-86/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/index.html1774309076755158688 0
+86/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/index.html1774330587835968400 0
 118/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/core/lib/RequestTracker.js1773279932133224727 0
 127/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/caniuse-lite/data/features/online-status.js1773279912511224734 0
 129/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/caniuse-lite/data/features/contenteditable.js1773279911109224735 0
@@ -1807,7 +1807,7 @@
 121/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/core/src/SymbolPropagation.js1773279933315224726 0
 109/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/core/src/requests1773279935819224725 1
 107/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/source-map/dist1773279918397224732 1
-91/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/src/js/controller.js1774221924835631824 0
+91/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/src/js/controller.js1774330587523968400 0
 136/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/runtime-js/lib/helpers/browser/css-loader.js1773279920330224731 0
 101/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/immutable/LICENSE1773280294511224589 0
 133/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/reporter-dev-server/src/ServerReporter.js1773279928338224728 0
@@ -1836,7 +1836,7 @@
 114/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/core/src/loadDotEnv.js1773279930361224728 0
 133/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/runtime-js/src/helpers/node/css-loader.js1773279920344224731 0
 100/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/profiler1773279918507224732 1
-88/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/src/js/helpers.js1774309076345158689 0
+88/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/src/js/helpers.js1774311443761157786 0
 107/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/transformer-raw1773279919408224732 1
 132/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/lightningcss/node_modules/detect-libc/lib/elf.js1773279925652224729 0
 134/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/caniuse-lite/data/features/spellcheck-attribute.js1773279912666224734 0
@@ -2034,7 +2034,7 @@
 140/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/CHANGES1773279916691224733 0
 106/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@lmdb/lmdb-linux-arm641773279917830224732 1
 88/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/src/img/icons.svg1773276092429226192 0
-104/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/project-forkify.f7626f62.css1774309076785158688 0
+104/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/project-forkify.f7626f62.css1774330587887968400 0
 131/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/watcher/src/shared/BruteForceBackend.cc1773279914802224733 0
 134/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/core/test/fixtures/custom-format-infer-ext1773279935835224725 1
 105/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/fs/index.d.ts1773279923937224730 0
@@ -2418,7 +2418,7 @@
 120/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/helpers/_/_wrap_async_generator1773279912378224734 1
 126/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/helpers/_/_class_private_field_update1773279911796224735 1
 103/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/base-x/src/index.js1773279917737224732 0
-97/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/src/js/views/recipeView.js1774307220642159397 0
+97/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/src/js/views/recipeView.js1774328543985969180 0
 92/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/msgpackr1773279919402224732 1
 115/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/source-map/package.json1773279918398224732 0
 109/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/browserslist/package.json1773279917770224732 0
@@ -2848,7 +2848,7 @@
 125/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/caniuse-lite/data/features/typedarrays.js1773279912749224734 0
 93/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/core1773279917948224732 1
 140/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/helpers/esm/_class_static_private_field_spec_get.js1773279911296224735 0
-107/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/project-forkify.4a59a05f.js.map1774309076840158688 0
+107/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/project-forkify.4a59a05f.js.map1774330587887968400 0
 138/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/helpers/esm/_class_static_private_field_update.js1773279911310224735 0
 108/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@parcel/packager-raw/lib1773279922151224731 1
 108/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/json5/lib/stringify.d.ts1773279917446224732 0
@@ -3034,7 +3034,7 @@
 122/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/helpers/_/_ts_values/package.json1773279912271224734 0
 129/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/helpers/_/_get_prototype_of/package.json1773279911877224735 0
 130/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/caniuse-lite/data/features/broadcastchannel.js1773279910994224735 0
-86/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/src/js/model.js1774308805703158792 0
+86/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/src/js/model.js1774330520940968425 0
 103/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/helpers/_/_get1773279911880224735 1
 121/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/helpers/_/_identity/package.json1773279911884224735 0
 101/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/react-refresh/cjs1773279910431224735 1
@@ -3155,7 +3155,7 @@
 122/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/helpers/src/_array_with_holes.mjs1773279912408224734 0
 134/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/caniuse-lite/data/features/alternate-stylesheet.js1773279910716224735 0
 115/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@lmdb/lmdb-linux-arm64/index.js1773279912191224734 0
-108/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/project-forkify.f7626f62.css.map1774309076804158688 0
+108/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/dist/project-forkify.f7626f62.css.map1774330587892968400 0
 120/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/helpers/src/_async_iterator.mjs1773279912416224734 0
 124/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/@swc/helpers/src/_async_to_generator.mjs1773279912417224734 0
 114/home/vhdezpedro/learning/fullStackCourse/javaScript-2/project-forkify/node_modules/sass/types/legacy/options.d.ts1773280294889224588 0
