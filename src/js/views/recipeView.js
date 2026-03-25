@@ -1,7 +1,8 @@
 const icons = new URL('../../img/icons.svg', import.meta.url).href;
 import Fraction from 'fraction.js';
+import View from './View.js';
 
-class RecipeView {
+class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
   _data;
   _errorMessage = 'We could not find that recipe. Please try another one!';
