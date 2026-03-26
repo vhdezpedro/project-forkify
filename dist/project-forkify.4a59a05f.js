@@ -738,7 +738,7 @@ const controlSearchResults = async function() {
     try {
         (0, _resultViewJs.resultsView).renderSpinner();
         await _modelJs.loadSearchResults(query);
-        (0, _resultViewJs.resultsView).render(_modelJs.getSearchResultsPage());
+        (0, _resultViewJs.resultsView).render(_modelJs.getSearchResultsPage(1));
         (0, _paginationViewJs.paginationView).render(_modelJs.state.search);
     } catch (error) {
         console.log(error);
