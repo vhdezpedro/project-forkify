@@ -7,7 +7,6 @@ class PaginationView extends View {
   addHandlerClick(handler) {
     this._parentElement.addEventListener('click', e => {
       const btn = e.target.closest('.btn--inline');
-      console.log(btn);
       const goToPage = +btn.dataset.goto;
 
       handler(goToPage);
@@ -19,8 +18,6 @@ class PaginationView extends View {
     const numPages = Math.ceil(
       this._data.results.length / this._data.resultsPerPage,
     );
-    /* Revisar el pagination se salta las paginas */
-    console.log(currPage, numPages);
 
     if (currPage === 1 && numPages === 1) {
       return '';
@@ -33,7 +30,7 @@ class PaginationView extends View {
           </svg>
         </button>
       `;
-    } else if (currPage > 1 || currPage < numPages) {
+    } else if (currPage > 1 && currPage < numPages) {
       return `
         <button data-goto="${currPage + 1}" class="btn--inline pagination__btn--next">
           <span>${currPage + 1}</span>
@@ -48,8 +45,7 @@ class PaginationView extends View {
           <span>${currPage - 1}</span>
         </button>
       `;
-    }
-    if (currPage === numPages) {
+    } else if (currPage === numPages) {
       return `
         <button data-goto="${currPage - 1}" class="btn--inline pagination__btn--prev">
           <svg class="search__icon">
